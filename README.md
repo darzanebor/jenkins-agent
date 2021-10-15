@@ -29,6 +29,16 @@ spec:
 container.seccomp.security.alpha.kubernetes.io/jnlp: unconfined
 container.apparmor.security.beta.kubernetes.io/jnlp: unconfined
 ```
+#
+##### Jenkinsfile
+```
+...
+stage("Main build") {
+  sh(returnStdout: true, script: 'img build -t user/myimage -f Dockerfile . && img ls')
+}
+...
+```
+
 ##### Tools
 
 [Img](https://github.com/genuinetools/img) Jenkins Agent with root-less OCI compatible image builder Img.
