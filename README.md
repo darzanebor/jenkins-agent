@@ -41,6 +41,6 @@ stage("Main build") {
 
 ##### Tools
 
-[Img](https://github.com/genuinetools/img) Jenkins Agent with root-less OCI compatible image builder Img.
+Jenkins Agent with root-less OCI compatible image builder [Img.](https://github.com/genuinetools/img)
 
 <a href="./img/Jenkins.png"><img src="./img/Jenkins.png" title="pylint"></a>
