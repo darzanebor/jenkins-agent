@@ -21,6 +21,6 @@ Run As Group ID: 1000
 ```
 ##### Tools
 
-[Img](https://github.com/genuinetools/img) Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.
+[Img](https://github.com/genuinetools/img) Standalone, root-less, unprivileged Dockerfile and OCI compatible container image builder.
 
 <a href="./img/Jenkins.png"><img src="./img/Jenkins.png" title="pylint"></a>
