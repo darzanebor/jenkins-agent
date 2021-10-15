@@ -1,4 +1,4 @@
-#### Jankins Agent with Img builder tool
+#### Jenkins Agent with Img builder tool
 # 
 ##### Usage in Kubernetes ([Kubernetes Jenkins Plugin](https://plugins.jenkins.io/kubernetes/))
 ```
