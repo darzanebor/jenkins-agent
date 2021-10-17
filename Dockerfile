@@ -1,6 +1,5 @@
 FROM jenkins/inbound-agent:alpine-jdk8
-ARG CRICTL_VERSION \
-    UID=1000
+ARG UID=1000
 ENV XDG_RUNTIME_DIR=/run/user/"${UID}" \
     HOME=/home/jenkins \
     USER=jenkins
