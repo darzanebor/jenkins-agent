@@ -1,7 +1,6 @@
-ARG REGISTRY_GROUP_URL \
-    CRICTL_VERSION \
+FROM jenkins/inbound-agent:alpine-jdk8
+ARG CRICTL_VERSION \
     UID=1000
-FROM ${REGISTRY_GROUP_URL}/jenkins/inbound-agent:alpine-jdk8
 ENV XDG_RUNTIME_DIR=/run/user/"${UID}" \
     HOME=/home/jenkins \
     USER=jenkins
